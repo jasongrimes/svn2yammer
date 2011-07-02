@@ -1,1 +1,16 @@
 SVN post-commit script to announce commits in a Yammer group.
+
+To install, edit hooks/post-commit in the repository directory on your Subversion
+server, and add the following:
+
+-------------- Sample hooks/post-commit file ----------------------
+
+REPOS="$1"
+REV="$2"
+
+/usr/bin/php /path/to/svn2yammer.php $REPOS $REV
+
+-------------- End sample hooks/post-commit file ------------------
+
+See http://svnbook.red-bean.com/en/1.5/svn.ref.reposhooks.post-commit.html for
+information about adding Subversion post-commit hooks.
