@@ -9,6 +9,7 @@
  *
  * @author    Jason Grimes <jason@grimesit.com>
  * @link      https://github.com/jasongrimes/svn2yammer
+ * @copyright Copyright (c) 2011 ProZ.com
  */
 
 /////////  Config  ///////////////
