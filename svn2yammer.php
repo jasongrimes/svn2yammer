@@ -7,7 +7,7 @@
  *
  * See https://www.yammer.com/company/email for more about the Yammer email gateway.
  *
- * @author    Jason Grimes <jason@grimesit.com>
+ * @author    Jason Grimes <jg@proz.com>
  * @link      https://github.com/jasongrimes/svn2yammer
  * @copyright Copyright (c) 2011 ProZ.com
  */
